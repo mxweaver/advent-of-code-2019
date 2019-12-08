@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint . --cache"
+    "lint": "eslint . --cache",
+    "test": "jest"
   },
   "keywords": [],
   "author": "Maya Vera <maya@mayavera.me> (https://mayavera.me/)",
@@ -13,8 +14,10 @@
     "eslint": "^6.7.2",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^23.1.1",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.17.0",
-    "eslint-plugin-react-hooks": "^2.3.0"
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "jest": "^24.9.0"
   }
 }

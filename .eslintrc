@@ -1,7 +1,12 @@
 {
-  "extends": "airbnb",
+  "plugins": ["jest"],
+  "extends": [
+    "airbnb",
+    "plugin:jest/all"
+  ],
   "env": {
-    "node": true
+    "node": true,
+    "jest": true
   },
   "rules": {
     "no-console": "off"
